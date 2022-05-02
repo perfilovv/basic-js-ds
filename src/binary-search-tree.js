@@ -24,7 +24,8 @@ class BinarySearchTree {
         this.tree = newNode;
         return;
       } else {
-        if (data === current.data) return;
+        if (data === current.data) 
+        return;
         if (data > current.data) {
           if (current.right) {
             current = current.right;
@@ -55,7 +56,8 @@ class BinarySearchTree {
     let current = this.tree;
     
     while(1) {
-      if (data === current.data) return current;
+      if (data === current.data) 
+      return current;
       if (data > current.data) {
         if (current.right) {
           current = current.right;
